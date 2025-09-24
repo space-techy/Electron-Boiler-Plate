@@ -1,0 +1,22 @@
+{
+    "appId": "com.truehire.app",
+    "productName": "TrueHire",
+    "icon": "./image.png",
+    "directories": {
+        "output": "release-builds"
+    },
+    "files": [
+        "dist/**/*",
+        "electron/**/*"
+    ],
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
